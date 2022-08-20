@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import Digits from "./components/Digits";
 import Display from "./components/Display";
 import Navbar from "./components/Navbar";
+import UnderDisplay from "./components/UnderDisplay";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <div className="calculator">
           <Navbar />
           <Display />
+          <UnderDisplay />
+          <Digits />
         </div>
       </div>
     </div>
