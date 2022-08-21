@@ -3,8 +3,8 @@ import React from "react";
 const Digits = () => {
   return (
     <div className=" relative text-[35px] text-white flex justify-between ">
-      <div className=" flex justify-evenly flex-1 ml-4 mr-6 ">
-        <div className=" z-10 flex flex-col justify-evenly border-solid border-[4px] border-[#787878] rounded-[14px] pl-[7px] pr-[7px] gap-[12px]">
+      <div className=" flex gap-[10px] justify-evenly flex-1 ml-4 mr-6 ">
+        <div className=" z-10   flex flex-col justify-evenly border-solid border-[4px] border-[#787878] rounded-[14px] pl-[7px] pr-[7px] gap-[12px]">
           <button>7</button>
           <button>4</button>
           <button>1</button>
@@ -14,7 +14,7 @@ const Digits = () => {
           <button>5</button>
           <button>2</button>
         </div>
-        <div className=" z-10 flex flex-col justify-evenly border-solid border-[4px] border-[#787878] rounded-[14px] pl-[7px] pr-[7px] gap-[12px] ">
+        <div className=" z-10 flex ml-[2px] flex-col justify-evenly border-solid border-[4px] border-[#787878] rounded-[14px] pl-[7px] pr-[7px] gap-[12px] ">
           <button>9</button>
           <button>6</button>
           <button>3</button>
@@ -26,18 +26,18 @@ const Digits = () => {
         <button>+</button>
       </div>
       <div className=" absolute w-[100%] h-[100%] top-0 text-[35px] text-white flex justify-between  ">
-        <div className=" gap-[5px] flex flex-col justify-evenly flex-1 ml-[30px] mr-[38px] ">
+        <div className=" gap-[10px] flex flex-col justify-evenly flex-1 ml-[30px] mr-[38px] ">
           <div className="flex h-[40px] justify-evenly border-solid border-[4px] border-[#787878] rounded-[14px] ">
             <button className="opacity-0">7</button>
             <button className="opacity-0">4</button>
             <button className="opacity-0">1</button>
           </div>
-          <div className=" z-0 flex justify-evenly border-solid border-[4px] border-white rounded-[14px] ">
+          <div className=" z-0 flex h-[40px] mt-[4px] justify-evenly border-solid border-[4px] border-white rounded-[14px] ">
             <button className="opacity-0">8</button>
             <button className="opacity-0">5</button>
             <button className="opacity-0">2</button>
           </div>
-          <div className="flex justify-evenly border-solid border-[4px] border-[#787878] rounded-[14px]  ">
+          <div className="flex h-[40px] mt-[2px] justify-evenly border-solid border-[4px] border-[#787878] rounded-[14px]  ">
             <button className="opacity-0">9</button>
             <button className="opacity-0">6</button>
             <button className="opacity-0">3</button>
